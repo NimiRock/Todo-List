@@ -1,0 +1,154 @@
+body {
+    min-height: 100vh;
+    background-image: url("green.jpg") !important;
+}
+
+::-webkit-scrollbar{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+
+
+
+.headerAndCats>h1 {
+    font-size: 70px;
+    font-family: 'IM Fell English SC', serif;
+}
+
+span {
+    font-size: 20px;
+}
+
+
+img {
+    width: 20vw;
+    height: 30vh;
+    left: 100px;
+    top: 100px;
+}
+
+.catsPar {
+    position: absolute;
+    left: 200px;
+    top: 400px;
+}
+
+
+
+.quote {
+    background-color: transparent !important;
+    border: none !important;
+    width: 40vw;
+    margin: auto;
+}
+
+.blockquote {
+    color: orangered;
+}
+
+
+.blockquote-footer {
+    color: orangered !important;
+}
+
+
+.todo {
+    width: 500px !important;
+}
+
+.notes {
+    width: 13em !important;
+    height: 16em !important;
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card-body > .card-text{
+    height: 100px;
+    overflow-y: auto;
+}
+
+
+
+.btnAdd {
+    width: 9em;
+    height: 3em;
+}
+
+
+.dictionaryLink {
+    background-color: darkblue !important;
+    width: 100px;
+    height: 50px;
+}
+
+.link {
+    color: darksalmon !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.link:hover {
+    background-color: transparent;
+    color: darksalmon !important;
+}
+
+.link:focus {
+    background-color: transparent !important;
+}
+
+
+
+.hide {
+    display: none !important;
+}
+
+
+.notes:hover .hide{
+    cursor: pointer;
+    display: block !important;
+}
+
+.collapseHeader{
+    background-color: #365b83 !important;
+    border-bottom: none !important;
+}
+
+.collapseBody {
+    background-color: #365b83 !important;
+}
+
+a {
+    color: darkgreen !important;
+    border-radius: 5px;
+}
+
+a:hover {
+    color: purple !important;
+    text-decoration: none !important;
+    background-color: #ebe5d0;
+}
+
+a:focus {
+    background-color: #ebe5d0 !important;
+}

@@ -1,0 +1,32 @@
+.container-fluid {
+  background-color: #E1E1E3;
+}
+
+.headerArea {
+  min-height: 25vh;
+  background-color: #1D2439;
+}
+
+img {
+  width: 300px;
+}
+
+.inputArea {
+  height: 5vh !important;
+}
+
+.inp {
+  min-width: 25vw;
+}
+
+.btn {
+  background-color: green;
+}
+
+h2 {
+  color: blue;
+}
+
+.hide {
+  display: none;
+}
